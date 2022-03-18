@@ -7,7 +7,7 @@ public:
 	static int posY ;
 	const char* windowName = "Laba1";
 
-	static void init(int argc, char** argv, void(*callback)());
+	static int init(int argc, char** argv, void(*callback)());
 
 };
 
